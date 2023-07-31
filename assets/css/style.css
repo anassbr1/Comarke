@@ -203,6 +203,19 @@ body {
   transition: var(--transition-2);
 }
 
+.btn-con{
+  background-image: var(--gradient-2);
+  width: 28%;
+  background-size: 200%;
+  color: black;
+  padding: 12px 35px;
+  font-size: var(--fs-8);
+  font-weight: var(--fw-500);
+  border-radius: 0 25px;
+  transition: var(--transition-2);
+}
+
+.btn-con:is(:hover, :focus),
 .btn:is(:hover, :focus) { background-position: right; }
 
 .w-100{
