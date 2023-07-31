@@ -1196,43 +1196,46 @@ video {
   margin-bottom: 20px;
 }
 
-.image-container {
+.image-container-web {
   position: relative;
   width: 50%;
 }
 
-.image-container img {
+.image-container-web img {
   width: 100%;
   height: auto;
-  border-radius: 5px;
+  border-radius: 40px;
+  margin-bottom: 50px;
+  margin-left: 50px;
 }
 
-.image-link {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 1;
-}
-
-.text-container {
+.text-container-web {
   width: 50%;
-  padding: 10px;
+  padding: 50px;
   text-align: center;
 }
 
-.text-container h2 {
+.text-container-web a {
   color: #FFA500;
 }
+
 @media (max-width: 767px) {
   .line {
     flex-basis: 100%;
   }
 
-  .image-container,
-  .text-container {
+  .image-container-web,
+  .text-container-web {
     width: 100%;
+  }
+  
+  .text-container-web {
+    flex-basis: 100%;
+  }
+  
+  .image-container-web img {
+    width: 100%;
+    margin-left: 0;
   }
 }
 
