@@ -192,6 +192,7 @@ body {
 .h2,
 .h3 { font-family: var(--ff-source-sans-pro); }
 
+
 .btn {
   background-image: var(--gradient-2);
   background-size: 200%;
@@ -375,6 +376,7 @@ body {
   padding-left: 10px;
   color: white;
 }
+image-container
 
 .navbar-item::after{
   content: "";
@@ -390,13 +392,6 @@ body {
 
 .navbar-item:hover::after{
   transform: scale(1);
-}
-
-.navbar-link {
-  color: black;
-  font-size: var(--fs-8);
-  font-weight: var(--fw-600);
-  padding-block: 12px;
 }
 
 .navbar-link {
@@ -524,7 +519,7 @@ body {
 
 
 
-
+.navbar-item
 
 
 
@@ -635,6 +630,7 @@ body {
   color: var(--white);
   background-color: var(--winter-sky);
 }
+
 
 
 
@@ -1195,7 +1191,7 @@ video {
     max-width: 300px;
   }
 }
-
+btn
 
 .container-work6 {
   display: flex;
@@ -1242,15 +1238,18 @@ video {
     width: 100%;
   }
   
+  /* Adjust the width of the text container for smaller screens */
   .text-container-web {
     flex-basis: 100%;
   }
   
+  /* Adjust the width of the images for smaller screens */
   .image-container-web img {
     width: 100%;
     margin-left: 0;
   }
 }
+
 
 
 
